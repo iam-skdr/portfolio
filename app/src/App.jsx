@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Education from './components/Education'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import DBMLViewer from './components/DBMLViewer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills/>
       <Education/>
       <Resume/>
+      <DBMLViewer/>
       <Contact/>
     </>
   )
