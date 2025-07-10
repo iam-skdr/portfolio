@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Education from './components/Education'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import PatternInterrupt from './components/PatternInterrupt'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Education/>
       <Resume/>
       <Contact/>
+      <PatternInterrupt/>
     </>
   )
 }
