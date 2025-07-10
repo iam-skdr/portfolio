@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 text-gray-200 font-sans;
+  @apply bg-black text-gray-200 font-sans overflow-x-hidden;
+}
+
+.neon {
+  text-shadow: 0 0 10px #06b6d4, 0 0 20px #06b6d4;
 }
